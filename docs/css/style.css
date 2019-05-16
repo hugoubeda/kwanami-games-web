@@ -104,7 +104,12 @@ body {
 }
 
 .profile-icon img {
-    width: 50px;
+    width: 44px;
     border-radius: 50%;
     border: 2px dashed #b71c1c;
+}
+
+.nav-link:hover {
+    color: #b71c1c;
+    transition: 0.3s;
 }
