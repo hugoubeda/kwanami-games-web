@@ -99,12 +99,12 @@ body {
 }
 
 .logo img {
-    width: 250px;
+    width: 300px;
     vertical-align: middle;
 }
 
 .profile-icon img {
-    width: 38px;
+    width: 45px;
     border-radius: 50%;
     border: 2px dashed #b71c1c;
     vertical-align: middle;
@@ -113,4 +113,45 @@ body {
 .nav-link:hover {
     color: #b71c1c;
     transition: 0.3s;
+}
+
+.week-news-container {
+    padding: 8px;
+}
+
+.week-news-container h2 {
+    padding: 8px;
+}
+
+.week-news-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-top: 1px solid #b71c1c;
+}
+
+.week-news-item {
+    max-width: 160px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b71c1c;
+}
+
+.week-news-item img {
+    max-width: 160px;
+    max-height: 219px;
+}
+
+.week-news-item h3 {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.week-news-item p {
+    font-size: 12px;
+}
+
+.upper-case {
+    text-transform: uppercase;
 }
