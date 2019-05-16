@@ -29,16 +29,29 @@
                 <input type="search" name="search" id="search">
             </div>
             <div class="authentication">
-                <ul class="flex flex-row flex-space-between flex-align-center hidden">
-                    <li><a href="#" class="btn sign-in" onclick="change()">Sign in</a></li>
+                <ul class="flex flex-row flex-space-between flex-align-center hidden" id="test1" onclick="change()">
+                    <li><a href="#" class="btn sign-in">Sign in</a></li>
                     <li><a href="#" class="btn sign-up">Sign up</a></li>
                 </ul>
-                <a href="#" class="profile-icon"><img src="./images/profile-icon.png" alt="Profile icon"></a>
+                <a href="#" class="profile-icon" id="test2" onclick="change()"><img src="./images/profile-icon.png" alt="Profile icon"></a>
             </div>
             
         </nav>
     </header>
 
+<script>
+    let test1 = document.getElementById('test1');
+    let test2 = document.getElementById('test2');
 
+    function change() {
+        if (test1.classList.contains('hidden')) {
+            test1.classList.remove('hidden');
+            test2.classList.add('hidden');
+        } else {
+            test2.classList.remove('hidden');
+            test1.classList.add('hidden');
+        }
+    }
+</script>
 </body>
 </html>
