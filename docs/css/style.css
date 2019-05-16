@@ -155,3 +155,19 @@ body {
 .upper-case {
     text-transform: uppercase;
 }
+
+.releases-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.last-releases {
+    width: 74.99%;
+}
+
+.next-releases {
+    width: 24.99%;
+}
