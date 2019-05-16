@@ -7,9 +7,38 @@
     <title>Kwanami</title>
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Destyle CSS -->
+    <link rel="stylesheet" href="./css/destyle.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <!-- Header -->
+    <header class="header">
+        <nav class="container flex flex-row flex-space-between flex-align-center">
+            <a href="#" class="logo"><img src="./images/logo.png" alt="Logo"></a>
+            <a href="#">Tops</a>
+            <a href="#">Lanzamientos</a>
+            <div class="flex flex-row flex-space-between flex-align-center input">
+                <i class="fas fa-search pr-2"></i>
+                <input type="search" name="search" id="search">
+            </div>
+            <div class="authentication">
+                <ul class="flex flex-row flex-space-between flex-align-center hidden">
+                    <li><a href="#" class="btn sign-in">Sign in</a></li>
+                    <li><a href="#" class="btn sign-up">Sign up</a></li>
+                </ul>
+                <a href="#" class="profile-icon"><img src="./images/profile-icon.png" alt="Profile icon"></a>
+            </div>
+            
+        </nav>
+    </header>
+
+
 </body>
 </html>
