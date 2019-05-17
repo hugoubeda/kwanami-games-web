@@ -99,7 +99,7 @@ body {
 }
 
 .logo img {
-    width: 300px;
+    width: 200px;
     vertical-align: middle;
 }
 
@@ -160,14 +160,146 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 8px;
+    align-items: flex-start;
+    margin-top: 24px;
 }
 
 .last-releases {
     width: 74.99%;
+    margin-right: 64px;
+}
+
+.last-releases h2, .next-releases h2 {
+    margin-bottom: 8px;
+}
+
+.last-releases-content, .next-releases-content {
+    border-top: 1px solid #b71c1c;
+    padding: 16px 0;
+}
+
+.last-releases-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.last-releases-item img {
+    width: 80px;
+    height: 110px;
+}
+
+.last-releases-item-data {
+    margin-bottom: auto;
+    padding: 16px;
+}
+
+.last-releases-item-data h3 {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 1.15em;
+}
+
+.last-releases-item-data p {
+    color: rgb(91, 91, 91);
+    font-size: 0.85em;
+}
+
+.next-releases .last-releases-item img {
+    width: 60px;
+    height: 90px;
+}
+
+.next-releases .last-releases-item-data {
+    padding: 0;
+    margin-right: 12px;
+}
+
+.next-releases .last-releases-item-data h3 {
+    font-size: 1em;
+}
+
+.next-releases .last-releases-item-data p {
+    font-size: 0.8em;
+}
+
+.tag {
+    font-size: 0.6em;
+    background-color: #b71c1c;
+    padding: 3px 5px;
+    color: white;
+    border-radius: 2px;
+    margin-right: 3px;
+    text-align: center;
+}
+
+.tag-list {
+    margin-bottom: 12px;
+}
+
+.tag-list ul {
+    flex-wrap: wrap;
+}
+
+.time {
+    font-size: 0.8em;
+    color: rgb(91, 91, 91);
+    margin-left: 16px;
+}
+
+.time i {
+    margin-right: 4px;
+    margin-bottom: 1px;
 }
 
 .next-releases {
     width: 24.99%;
+}
+
+.last-releases-item > .c100 {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+footer {
+    border-top: 1px solid #b71c1c;
+    margin-top: 16px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 120px;
+}
+
+.social-icons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #b71c1c;
+    font-size: 1.4em;
+}
+
+.social-icon-item {
+    margin-right: 4px;
+}
+
+.copyright-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    color: rgb(91, 91, 91);
+}
+
+.copyright-section p {
+    margin-left: 16px;
 }
