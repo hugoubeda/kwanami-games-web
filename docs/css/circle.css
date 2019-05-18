@@ -874,6 +874,10 @@
   border-color: #b71c1c !important;
 }
 
+.c100.blue .bar, .c100.blue .fill {
+  border-color: #307bbb !important;
+}
+
 .green > span {
   color: #4db53c;
 }
@@ -884,4 +888,8 @@
 
 .red > span {
   color: #b71c1c;
+}
+
+.blue > span {
+  color: #307bbb;
 }

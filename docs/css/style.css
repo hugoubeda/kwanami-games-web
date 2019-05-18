@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 .header {
     width: 100%;
     border-bottom: 1px solid #b71c1c;
@@ -120,7 +124,7 @@ body {
 }
 
 .week-news-container h2 {
-    padding: 8px;
+    padding: 8px 0;
 }
 
 .week-news-content {
@@ -232,6 +236,18 @@ body {
     border-radius: 2px;
     margin-right: 3px;
     text-align: center;
+}
+
+.pc {
+    background-color: #4b5ad7;
+}
+
+.xbox-one {
+    background-color: #529c32;
+}
+
+.ps4 {
+    background-color: #634a73;
 }
 
 .tag-list {
