@@ -103,8 +103,18 @@ h2 {
 }
 
 .logo img {
-    width: 200px;
+    width: 45px;
     vertical-align: middle;
+    border-radius: 50%;
+    border: 2px dashed #b71c1c;
+    padding: 3px;
+    margin: 3px;
+}
+
+.logo-letras {
+    border: none !important;
+    width: 200px !important;
+    border-radius: 0 !important;
 }
 
 .profile-icon img {
@@ -112,6 +122,7 @@ h2 {
     border-radius: 50%;
     border: 2px dashed #b71c1c;
     vertical-align: middle;
+    padding: 3px;
 }
 
 .nav-link:hover {
@@ -205,7 +216,7 @@ h2 {
     font-size: 1.15em;
 }
 
-.last-releases-item-data p {
+.last-releases-item-data .info-list {
     color: rgb(91, 91, 91);
     font-size: 0.85em;
 }
