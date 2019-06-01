@@ -61,6 +61,8 @@ main {
 
 .ranking {
     font-size: 24px;
+    margin-right: 8px;
+    margin-left: auto;
 }
 
 .pr-3 {
@@ -107,6 +109,11 @@ main {
     border-color: rgb(153, 22, 2);
     background-image: none;
     box-shadow: inset 0 2px 4px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.authentication {
+    padding-left: 8px;
+    border-left: 1px solid #f3f3f3;
 }
 
 .authentication li:first-child {
@@ -178,7 +185,7 @@ main {
 
 .score-float {
     position: absolute;
-    top: 3%;
+    bottom: 27.5%;
     right: 3%;
     z-index: 10;
 }
@@ -198,7 +205,6 @@ main {
 .week-news-item h3 {
     padding: 10px 0;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 .week-news-item p {
@@ -233,8 +239,9 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 16px;
     margin-right: 8px;
+    padding: 8px 0;
+    border-top: 1px solid #f3f3f3;
 }
 
 .last-releases-item:last-child {
