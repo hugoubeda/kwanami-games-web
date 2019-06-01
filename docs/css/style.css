@@ -224,8 +224,8 @@ main {
 }
 
 .releases-container {
-    width: 74.99%;
-    margin-right: 64px;
+    width: 68.99%;
+    margin-right: 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -347,7 +347,7 @@ main {
 }
 
 .right-column {
-    width: 24.99%;
+    width: 30.99%;
 }
 
 .platform-info {
@@ -414,4 +414,38 @@ footer img {
 
 .copyright-section p {
     margin-left: 16px;
+}
+
+.patreon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.patreon img {
+    height: 84px;
+    border-radius: 4px 0 0 4px;
+}
+
+.patreon-data {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.patreon h3 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.patreon p {
+    font-size: 11px;
+}
+
+.patreon button {
+    margin-right: 8px;
 }
