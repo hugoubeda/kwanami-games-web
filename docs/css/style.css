@@ -40,13 +40,20 @@ h2 {
 
 .input {
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid rgb(237, 239, 241);
+    border-radius: 4px;
+    background-color: rgb(246, 247, 248);
+    color: rgb(135, 138, 140);
+    width: 50%;
 }
 
 .input:focus, .input:active, .input:hover, .input:focus-within {
     border-color: #b71c1c;
     transition: 0.3s;
+}
+
+.ranking {
+    font-size: 24px;
 }
 
 .pr-3 {
@@ -76,9 +83,9 @@ h2 {
     font-size: 14px;
     color: #fff;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-    background-color: #FC280A;
-    background-image: -moz-linear-gradient(rgb(245, 90, 70), rgb(199, 27, 5));
-    background-image: -webkit-linear-gradient(rgb(245, 90, 70), rgb(199, 27, 5));
+    background-color: #ed1c24;
+    background-image: -moz-linear-gradient(rgb(245, 90, 70), #ed1c24);
+    background-image: -webkit-linear-gradient(rgb(245, 90, 70), #ed1c24);
     filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(245, 90, 70)', endColorstr='rgb(199, 27, 5)')";
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(245, 90, 70)', endColorstr='rgb(199, 27, 5)')";
     border-color: rgb(199, 27, 5);
@@ -104,12 +111,8 @@ h2 {
 }
 
 .logo img {
-    width: 45px;
+    height: 45px;
     vertical-align: middle;
-    border-radius: 50%;
-    border: 2px dashed #b71c1c;
-    padding: 3px;
-    margin: 3px;
 }
 
 .logo-letras {
@@ -121,7 +124,7 @@ h2 {
 .profile-icon img {
     width: 45px;
     border-radius: 50%;
-    border: 2px dashed #b71c1c;
+    /* border: 2px dashed #b71c1c; */
     vertical-align: middle;
     padding: 3px;
 }
