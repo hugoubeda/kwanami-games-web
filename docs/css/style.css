@@ -52,6 +52,7 @@ main {
     background-color: rgb(246, 247, 248);
     color: rgb(135, 138, 140);
     width: 50%;
+    margin: 0 auto;
 }
 
 .input:focus, .input:active, .input:hover, .input:focus-within {
@@ -61,8 +62,9 @@ main {
 
 .ranking {
     font-size: 24px;
-    margin-right: 8px;
+    padding: 3px 8px;
     margin-left: auto;
+    border-right: 1px solid #f3f3f3;
 }
 
 .pr-3 {
@@ -113,7 +115,6 @@ main {
 
 .authentication {
     padding-left: 8px;
-    border-left: 1px solid #f3f3f3;
 }
 
 .authentication li:first-child {
@@ -215,20 +216,28 @@ main {
     text-transform: uppercase;
 }
 
-.releases-container {
+.content-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
     margin-top: 24px;
 }
 
-.last-releases {
+.releases-container {
     width: 74.99%;
     margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.last-releases, .next-releases {
+    width: 100%;
     background-color: white;
     padding: 8px;
     border-radius: 4px;
+    margin-bottom: 16px;
 }
 
 .last-releases h2, .next-releases h2 {
@@ -254,7 +263,6 @@ main {
 }
 
 .last-releases-item-data {
-    margin-bottom: auto;
     padding: 16px;
 }
 
@@ -338,8 +346,27 @@ main {
     margin-bottom: 1px;
 }
 
-.next-releases {
+.right-column {
     width: 24.99%;
+}
+
+.platform-info {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.platform-info img {
+    max-width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.platform-info p {
+    font-size: 12px;
+    padding: 12px;
+}
+
+.platform-info p:last-child {
+    padding-top: 0;
 }
 
 .last-releases-item > .c100 {
