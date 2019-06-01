@@ -17,6 +17,7 @@ main {
     width: 100%;
     /* border-bottom: 1px solid #ccc; */
     background-color: white;
+    padding-right: 16px;
 }
 
 .container {
