@@ -55,6 +55,10 @@ main {
     margin: 0 auto;
 }
 
+.input input {
+    width: 100%;
+}
+
 .input:focus, .input:active, .input:hover, .input:focus-within {
     border-color: #b71c1c;
     transition: 0.3s;
