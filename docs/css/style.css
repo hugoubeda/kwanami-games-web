@@ -522,7 +522,7 @@ footer img {
     font-size: 14px;
 }
 
-.last-releases-2 .score {
+.last-releases-2 .score, .last-releases-3 .score {
     align-self: flex-end;
 }
 
