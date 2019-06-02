@@ -266,15 +266,24 @@ main {
     text-transform: uppercase;
 }
 
-.content-wrapper {
+.content-wrapper-1, .content-wrapper-2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 24px;
 }
 
-.releases-container {
+.content-wrapper-1 .releases-container {
     width: 49.99%;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content-wrapper-2 .releases-container {
+    width: 64.99%;
     margin-right: 32px;
     display: flex;
     flex-direction: column;
@@ -411,8 +420,12 @@ main {
     margin-bottom: 1px;
 }
 
-.right-column {
+.content-wrapper-1 .right-column {
     width: 49.99%;
+}
+
+.content-wrapper-2 .right-column {
+    width: 34.99%;
 }
 
 .platform-info {
