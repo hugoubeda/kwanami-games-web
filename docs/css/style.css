@@ -2,7 +2,7 @@ body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     /* font-family: arial, sans-serif; */
-    background-color: #f3f3f3;
+    background-color: #DAE0E6;
 }
 
 h2 {
@@ -10,7 +10,7 @@ h2 {
 }
 
 main {
-    background-color: #f3f3f3;
+    background-color: #DAE0E6;
 }
 
 .header {
@@ -151,10 +151,11 @@ main {
     color: #ed1c24;
 }
 
-/* .btn:hover {
-    text-decoration: none;
-    background-position: 0 -35px;
-} */
+.btn:hover {
+    /* filter: brightness(1.2); */
+    filter: opacity(0.8);
+    transition: 0.3s;
+}
 
 /* .btn:active {
     border-color: rgb(153, 22, 2);
