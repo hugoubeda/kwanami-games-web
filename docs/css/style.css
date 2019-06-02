@@ -322,6 +322,11 @@ main {
     font-size: 16px;
 }
 
+.last-releases-item-data p {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
 .info-list {
     color: rgb(91, 91, 91);
     font-size: 12px;
@@ -503,4 +508,10 @@ footer img {
 
 .patreon button {
     margin-right: 8px;
+}
+
+.red-text {
+    color: #b71c1c;
+    font-weight: bold;
+    font-size: 14px;
 }
