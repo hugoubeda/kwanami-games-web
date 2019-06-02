@@ -274,7 +274,7 @@ main {
 }
 
 .releases-container {
-    width: 68.99%;
+    width: 49.99%;
     margin-right: 32px;
     display: flex;
     flex-direction: column;
@@ -412,7 +412,7 @@ main {
 }
 
 .right-column {
-    width: 30.99%;
+    width: 49.99%;
 }
 
 .platform-info {
