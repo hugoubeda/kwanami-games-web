@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kwanami</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Circle -->
+    <link rel="stylesheet" href="./css/circle.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Destyle CSS -->
+    <link rel="stylesheet" href="./css/destyle.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="flex flex-row flex-space-between flex-align-center">
+            <a href="#" class="logo"><img src="./images/logo2.png" alt="Logo"></a>
+            <!-- <a href="#" class="nav-link">Lanzamientos</a>
+            <a href="#" class="nav-link">Tops</a> -->
+            <div class="flex flex-row flex-space-between flex-align-center input">
+                <i class="fas fa-search pr-2"></i>
+                <input type="search" name="search" id="search">
+            </div>
+            <div class="ranking-wrapper">
+                <a class="ranking" href="#"><i class="fas fa-list-ol"></i></a>
+                <span class="ranking-span">Ránkings</span>
+            </div>
+            <div class="authentication">
+                <ul class="flex flex-row flex-space-between flex-align-center hidden" id="test1" onclick="change()">
+                    <li><a href="#" class="btn sign-in">Entrar</a></li>
+                    <li><a href="#" class="btn sign-up">Registrarse</a></li>
+                </ul>
+                <a href="#" class="profile-icon" id="test2" onclick="change()"><img src="./images/profile-icon.png" alt="Profile icon"></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="container">
+    </main>
+    <footer>
+        <div class="container">
+            <ul class="social-icons-list">
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fab fa-youtube-square"></i>
+                    </a>
+                </li>
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                </li>
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                </li>
+            </ul>  
+        
+        <div class="copyright-section">
+            <a href="#">
+                <img src="./images/logo2.png" alt="Footer logo">
+            </a>
+            <p class="">© 2019 Kwanami. Todos los derechos reservados.</p>
+        </div>
+    </div>
+    </footer>
+    
+<script>
+    let test1 = document.getElementById('test1');
+    let test2 = document.getElementById('test2');
+
+    function change() {
+        if (test1.classList.contains('hidden')) {
+            test1.classList.remove('hidden');
+            test2.classList.add('hidden');
+        } else {
+            test2.classList.remove('hidden');
+            test1.classList.add('hidden');
+        }
+    }
+</script>
+</body>

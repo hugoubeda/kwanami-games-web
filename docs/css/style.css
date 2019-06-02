@@ -321,6 +321,11 @@ main {
     height: 75px;
 }
 
+.content-wrapper-2 .last-releases-item img {
+    width: 60px;
+    height: 60px;
+}
+
 .last-releases-item-data {
     padding: 0 8px;
 }
