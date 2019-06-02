@@ -327,6 +327,12 @@ main {
     margin-top: 4px;
 }
 
+.read-more {
+    color: grey;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 .info-list {
     color: rgb(91, 91, 91);
     font-size: 12px;
@@ -514,4 +520,12 @@ footer img {
     color: #b71c1c;
     font-weight: bold;
     font-size: 14px;
+}
+
+.last-releases-2 .score {
+    align-self: flex-end;
+}
+
+.last-releases-2 .last-releases-item-data {
+    padding-left: 0;
 }
