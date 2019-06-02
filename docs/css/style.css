@@ -64,11 +64,49 @@ main {
     transition: 0.3s;
 }
 
-.ranking {
-    font-size: 24px;
-    padding: 3px 8px;
+.ranking-wrapper {
     margin-left: auto;
+    padding: 0px 12px;
     border-right: 1px solid #f3f3f3;
+    display: flex;
+    position: relative;
+}
+
+.ranking {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.ranking-span {
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    color: white;
+    background: black;
+    padding: 5px 8px;
+    border-radius: 4px;
+    bottom: -30px;
+    right: 0;
+    z-index: 5;
+}
+
+.ranking-span::before {
+    content: '▴';
+    position: absolute;
+    top: -13.2px;
+    right: 21px;
+    color: black;
+    font-size: 18px;
+}
+
+.ranking:hover {
+    background-color: rgba(26, 26, 27, 0.1);
+    transition: 0.3s;
+}
+
+.ranking:hover ~ .ranking-span {
+    display: block;
 }
 
 .pr-3 {
