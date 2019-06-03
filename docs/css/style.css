@@ -51,8 +51,13 @@ main {
     border-radius: 4px;
     background-color: rgb(246, 247, 248);
     color: rgb(135, 138, 140);
-    width: 50%;
-    margin: 0 auto;
+    width: 59%;
+    max-width: 980px;
+    position: relative;
+    right: -9.5%;
+    margin-right: auto;
+    margin-left: 0;
+    
 }
 
 .input input {
@@ -65,7 +70,7 @@ main {
 }
 
 .ranking-wrapper {
-    margin-left: auto;
+    margin-right: 0;
     padding: 0px 12px;
     border-right: 1px solid #f3f3f3;
     display: flex;
@@ -498,14 +503,14 @@ footer img {
     color: #b71c1c;
 }
 
-.social-icon-item {
+.social-icon {
     margin-right: 4px;
     font-size: 16px;
     padding: 8px;
     border-radius: 2px;
 }
 
-.social-icon-item:hover {
+.social-icon:hover {
     background-color: rgba(26, 26, 27, 0.1);
     transition: 0.3s;
 }
@@ -573,6 +578,7 @@ footer img {
 
 .last-releases-3 .score {
     border-radius: 50%;
+    padding: 8px 12px;
 }
 
 .technical-card-data .img {
@@ -604,6 +610,15 @@ footer img {
 
 .technical-card-data-content .data-list {
     font-size: 14px;
+    font-weight: bold;
+}
+
+.technical-card-data-content .data-list a, .technical-card-data-content .data-list-item:last-child {
+    font-weight: normal;
+}
+
+.technical-card-data-content .data-list a:hover {
+    text-decoration: underline;
 }
 
 .technical-card-data-content .social-icons-list {
@@ -612,7 +627,9 @@ footer img {
 }
 
 .technical-card-data-content .social-icon-item {
-    margin-right: 16px;
+    margin-right: 4px;
+    display: flex;
+    position: relative;
 }
 
 .technical-card-data-content .social-icon-item:last-child {
@@ -627,4 +644,35 @@ footer img {
     font-size: 14px;
     margin-top: 8px;
     padding-right: 8px;
+}
+
+.technical-card-data-content .sub-text {
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    color: white;
+    background: black;
+    padding: 5px 8px;
+    border-radius: 4px;
+    bottom: -57px;
+    right: -8px;
+    z-index: 5;
+    text-align: center;
+}
+
+.technical-card-data-content .sub-text-2 {
+    bottom: -44px; 
+}
+
+.technical-card-data-content .sub-text::before {
+    content: '▴';
+    position: absolute;
+    top: -13.2px;
+    right: 21px;
+    color: black;
+    font-size: 18px;
+}
+
+.technical-card-data-content .social-icon:hover ~ .sub-text {
+    display: block;
 }
