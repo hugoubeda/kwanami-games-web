@@ -15,9 +15,17 @@ main {
 
 .header {
     width: 100%;
-    /* border-bottom: 1px solid #ccc; */
+    height: 48px;
     background-color: white;
-    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .nav {
+    position: relative;
+    width: 100%;
 }
 
 .container {
@@ -51,12 +59,9 @@ main {
     border-radius: 4px;
     background-color: rgb(246, 247, 248);
     color: rgb(135, 138, 140);
-    width: 59%;
+    width: 980px;
     max-width: 980px;
-    position: relative;
-    right: -9.5%;
-    margin-right: auto;
-    margin-left: 0;
+    margin: 0 auto;
     
 }
 
@@ -67,6 +72,15 @@ main {
 .input:focus, .input:active, .input:hover, .input:focus-within {
     border-color: #b71c1c;
     transition: 0.3s;
+}
+
+.right-side-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .ranking-wrapper {
@@ -180,15 +194,15 @@ main {
     display: none;
 }
 
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .logo img {
     height: 48px;
     vertical-align: middle;
-}
-
-.logo-letras {
-    border: none !important;
-    width: 200px !important;
-    border-radius: 0 !important;
 }
 
 .profile-icon img {
