@@ -574,3 +574,57 @@ footer img {
 .last-releases-3 .score {
     border-radius: 50%;
 }
+
+.technical-card-data .img {
+    height: 215px;
+    width: 26.99%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.technical-card-data {
+    border-top: 1px solid #f3f3f3;
+    padding: 8px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.technical-card-data-content {
+    padding-left: 16px;
+    padding-right: 8px;
+    width: 72.99%;
+}
+
+.technical-card-data-content .tag-list {
+    margin-bottom: 16px;
+}
+
+.technical-card-data-content .data-list {
+    font-size: 14px;
+}
+
+.technical-card-data-content .social-icons-list {
+    margin-top: 16px;
+    justify-content: flex-start;
+}
+
+.technical-card-data-content .social-icon-item {
+    margin-right: 16px;
+}
+
+.technical-card-data-content .social-icon-item:last-child {
+    margin-right: 0;
+}
+
+.technical-card-description {
+    border-top: 1px solid #f3f3f3;
+}
+
+.technical-card-description p {
+    font-size: 14px;
+    margin-top: 8px;
+    padding-right: 8px;
+}
