@@ -827,5 +827,9 @@ footer img {
 }
 
 .rankings-column select {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
+}
+
+.rankings-column select:last-child {
+    margin-bottom: 0;
 }
