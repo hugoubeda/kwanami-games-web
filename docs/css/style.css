@@ -796,7 +796,7 @@ footer img {
     padding: 4px 6px 4px 6px;
     box-sizing: border-box;
     position: relative;
-    border: 1px solid #333;
+    border: 1px solid #f3f3f3;
     border-radius: 4px;
 }
 
@@ -834,7 +834,7 @@ footer img {
     margin-bottom: 0;
 }
 
-.brd
+/* .brd
 {
     border: 1px solid #e2eded;
     border-color: #eaf1f1 #e4eded #dbe7e7 #e4eded;
@@ -853,7 +853,7 @@ footer img {
 #select-button
 {
     position: relative;
-    /* height: 16px; */
+    height: 16px;
     padding: 12px 14px;
     background-color: #fff;
     border-radius: 4px;
@@ -1247,4 +1247,4 @@ input[type="radio"]
     top: 200px;
     background-color: #006400;
     border-radius: 0 0 4px 4px;
-}
+} */
