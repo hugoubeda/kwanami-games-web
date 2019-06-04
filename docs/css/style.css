@@ -349,6 +349,7 @@ main {
 
 .content-wrapper-2.rankings-page .last-releases-item:first-child {
     border-top: none;
+    padding-top: 0;
 }
 
 .content-wrapper-2.rankings-page .last-releases-item .img {
