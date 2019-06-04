@@ -376,6 +376,7 @@ main {
 .last-releases-item-data p {
     font-size: 12px;
     margin-top: 4px;
+    max-width: 92%;
 }
 
 .read-more {
@@ -583,6 +584,17 @@ footer img {
     font-size: 14px;
 }
 
+.last-releases-3 {
+    position: relative;
+}
+
+.last-releases-3 .btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 6px 8px;
+}
+
 .last-releases-2 .score, .last-releases-3 .score {
     align-self: flex-end;
 }
@@ -593,7 +605,7 @@ footer img {
 
 .last-releases-3 .score {
     border-radius: 50%;
-    padding: 8px 12px;
+    padding: 12px 16px;
 }
 
 .technical-card-data .img {
@@ -696,8 +708,7 @@ footer img {
     display: block;
     padding: 16px;
     font-size: 48px;
-    margin-right: 16px;
-    margin-left: 0;
+    margin-left: auto;
 }
 
 .technical-card-score {
@@ -774,7 +785,6 @@ footer img {
     color: black;
     padding: 4px 0 4px 4px;
     box-sizing: border-box;
-    margin-right: 16px;
     position: relative;
 }
 
@@ -783,4 +793,8 @@ footer img {
     justify-content: center;
     align-items: center;
     padding-bottom: 0;
+}
+
+.technical-card-score .btn {
+    padding: 6px 8px;
 }
