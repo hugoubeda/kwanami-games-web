@@ -347,6 +347,15 @@ main {
     background-size: cover;
 }
 
+.content-wrapper-2.rankings-page .last-releases-item:first-child {
+    border-top: none;
+}
+
+.content-wrapper-2.rankings-page .last-releases-item .img {
+    width: 75px;
+    height: 75px;
+}
+
 .content-wrapper-2 .last-releases-item .img {
     width: 60px;
     height: 60px;
@@ -783,9 +792,11 @@ footer img {
     display: block;
     font-size: 16px;
     color: black;
-    padding: 4px 0 4px 4px;
+    padding: 6px 6px 6px 6px;
     box-sizing: border-box;
     position: relative;
+    border: 1px solid #333;
+    border-radius: 4px;
 }
 
 .section:last-child {
@@ -803,6 +814,7 @@ footer img {
     padding: 8px 0;
     font-weight: bold;
     border-bottom: 1px solid #f3f3f3;
+    margin-bottom: 8px;
 }
 
 .rankings-column .section {
