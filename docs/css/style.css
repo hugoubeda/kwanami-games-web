@@ -691,3 +691,96 @@ footer img {
 .technical-card-data-content .social-icon:hover ~ .sub-text {
     display: block;
 }
+
+.technical-card-score .score {
+    display: block;
+    padding: 16px;
+    font-size: 48px;
+    margin-right: 16px;
+    margin-left: 0;
+}
+
+.technical-card-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.technical-card-score .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section {
+    padding: 12px 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.section:first-child {
+    padding-top: 0;
+}
+
+.section-2 {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+.section-2 .score {
+    border-radius: 50%;
+    padding: 12px 8px;
+    font-size: 32px;
+    align-self: flex-start;
+}
+
+.section-2 .subsection {
+    margin-top: 4px !important;
+}
+
+.subsection {
+    align-self: flex-start;
+    margin-top: 4px;
+}
+
+.subsection .info-list {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 4px;
+}
+
+.subsection .info-list li {
+    margin: 0;
+}
+
+.subsection p {
+    font-size: 14px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.section-2 div:last-child {
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-css {
+    display: block;
+    font-size: 16px;
+    color: black;
+    padding: 4px 0 4px 4px;
+    box-sizing: border-box;
+    margin-right: 16px;
+    position: relative;
+}
+
+.section:last-child {
+    border-bottom: none;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
