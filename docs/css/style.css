@@ -798,3 +798,21 @@ footer img {
 .technical-card-score .btn {
     padding: 6px 8px;
 }
+
+.rankings-column h3 {
+    padding: 8px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.rankings-column .section {
+    border-bottom: none;
+}
+
+.rankings-column .section:last-child {
+    padding-top: 0;
+}
+
+.rankings-column select {
+    margin-bottom: 4px;
+}
