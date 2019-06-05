@@ -737,7 +737,6 @@ footer img {
 .section {
     padding: 12px 0;
     border-bottom: 1px solid #f3f3f3;
-    padding-top: 0;
 }
 
 .section:first-child {
@@ -821,6 +820,7 @@ footer img {
 
 .rankings-column .section {
     border-bottom: none;
+    padding-top: 0;
 }
 
 .rankings-column .section:last-child {
