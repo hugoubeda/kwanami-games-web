@@ -866,6 +866,13 @@ footer img {
     margin-top: 4px;
 }
 
+.footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
 /* .brd
 {
     border: 1px solid #e2eded;
