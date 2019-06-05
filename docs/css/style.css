@@ -737,6 +737,7 @@ footer img {
 .section {
     padding: 12px 0;
     border-bottom: 1px solid #f3f3f3;
+    padding-top: 0;
 }
 
 .section:first-child {
@@ -826,12 +827,43 @@ footer img {
     padding-top: 0;
 }
 
-.rankings-column select {
+.rankings-column .select-css {
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.rankings-column .select-css:last-child {
+    margin-bottom: 0;
+}
+
+.section .input {
+    width: 100%;
     margin-bottom: 8px;
 }
 
-.rankings-column select:last-child {
+.section .input i {
+    line-height: 1.2;
+}
+
+.date-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.date-wrapper:last-child {
     margin-bottom: 0;
+}
+
+.date-wrapper label {
+    font-weight: 600;
+}
+
+.date-wrapper input {
+    border: 1px solid #f3f3f3;
+    padding: 4px 6px;
+    margin-top: 4px;
 }
 
 /* .brd

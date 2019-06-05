@@ -176,37 +176,64 @@
                     <div class="section">
                         <h3>Filter results</h3>
                         <select class="select-css">
-                            <option value="default" disabled selected hidden>Tu voto ▾</option>
-                            <option value="volvo">Voto 1</option>
-                            <option value="saab">Voto 2</option>
-                            <option value="opel">Voto 3</option>
-                            <option value="audi">Voto 4</option>
+                            <option value="default" disabled selected hidden>All letters</option>
+                            <option value="a">A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                        </select>
+                        <select class="select-css">
+                            <option value="default" disabled selected hidden>Sort by</option>
+                            <option value="1">Alphabetical</option>
+                            <option value="2">Release Date</option>
+                            <option value="3">Recent Edits</option>
+                            <option value="4">New Additions</option>
                         </select>
                     </div>
 
                     <div class="section">
                         <h3>Style of game</h3>
                         <select class="select-css">
-                            <option value="default" disabled selected hidden>Tu voto ▾</option>
-                            <option value="volvo">Voto 1</option>
-                            <option value="saab">Voto 2</option>
-                            <option value="opel">Voto 3</option>
-                            <option value="audi">Voto 4</option>
+                            <option value="default" disabled selected hidden>All platforms</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
                         </select>
                         <select class="select-css">
-                            <option value="default" disabled selected hidden>Tu voto ▾</option>
-                            <option value="volvo">Voto 1</option>
-                            <option value="saab">Voto 2</option>
-                            <option value="opel">Voto 3</option>
-                            <option value="audi">Voto 4</option>
+                            <option value="default" disabled selected hidden>Role-Playing</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
                         </select>
                         <select class="select-css">
-                            <option value="default" disabled selected hidden>Tu voto ▾</option>
-                            <option value="volvo">Voto 1</option>
-                            <option value="saab">Voto 2</option>
-                            <option value="opel">Voto 3</option>
-                            <option value="audi">Voto 4</option>
+                            <option value="default" disabled selected hidden>All themes</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
                         </select>
+                    </div>
+
+                    <div class="section">
+                        <h3>Made by / during this time</h3>
+                        <div class="flex flex-row flex-space-between flex-align-center input">
+                            <i class="fas fa-search pr-2"></i>
+                            <input type="search" name="search" id="developer" placeholder="Developer">
+                        </div>
+                        <div class="flex flex-row flex-space-between flex-align-center input">
+                            <i class="fas fa-search pr-2"></i>
+                            <input type="search" name="search" id="developer" placeholder="Publisher">
+                        </div>
+                        <div class="date-wrapper">
+                            <label for="date-from">From:</label>
+                            <input type="date" name="date-from" id="date-from">
+                        </div>
+                        <div class="date-wrapper">
+                            <label for="date-to">To:</label>
+                            <input type="date" name="date-to" id="date-to">
+                        </div>
                     </div>
                 </section>
             </div>

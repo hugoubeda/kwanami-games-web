@@ -244,11 +244,11 @@
    * Remove all Style fro select elements. Does not quite work cross-browser
    */
   
-  select {
+  /* select {
     -webkit-appearance: none;
     appearance: none;
     border-radius: 0;
-  }
+  } */
   
   /**
    * Show the overflow in IE.
