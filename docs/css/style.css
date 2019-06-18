@@ -1007,3 +1007,9 @@ footer img {
     padding: 8px;
     padding-right: 16px;
 }
+
+.nick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
