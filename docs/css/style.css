@@ -957,3 +957,25 @@ footer img {
     left: 16px;
     top: 10px;
 }
+
+.profile-column .section {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-column .profile-icon {
+    width: 64px;
+    height: 64px;
+    margin: 16px;
+}
+
+.profile-column h3 {
+    font-size: 24px;
+    color: #b71c1c;
+    font-weight: 600;
+}
+
+.profile-column .score {
+    margin-right: 16px;
+    border-radius: 50%;
+}
