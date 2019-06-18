@@ -975,6 +975,11 @@ footer img {
     margin: 16px;
 }
 
+.profile-column h2 {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
 .profile-column h3 {
     font-size: 24px;
     color: #b71c1c;
@@ -984,6 +989,8 @@ footer img {
 .profile-score .score {
     border-radius: 50%;
     margin: 4px 0;
+    padding: 16px 14px;
+    font-size: 20px;
 }
 
 .profile-score {
@@ -1006,6 +1013,7 @@ footer img {
 .biography {
     padding: 8px;
     padding-right: 16px;
+    font-size: 14px;
 }
 
 .nick {
@@ -1013,3 +1021,4 @@ footer img {
     flex-direction: column;
     justify-content: center;
 }
+
