@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kwanami</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Destyle CSS -->
+    <link rel="stylesheet" href="./css/destyle.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="flex flex-row flex-space-between flex-align-center">
+            <a href="#" class="logo"><img src="./images/logo2.png" alt="Logo"></a>
+            <!-- <a href="#" class="nav-link">Lanzamientos</a>
+            <a href="#" class="nav-link">Tops</a> -->
+            <div class="flex flex-row flex-space-between flex-align-center input">
+                <i class="fas fa-search pr-2"></i>
+                <input type="search" name="search" id="search">
+            </div>
+            <div class="right-side-wrapper">
+                <div class="ranking-wrapper">
+                    <a class="ranking" href="#"><i class="fas fa-list-ol"></i></a>
+                    <span class="ranking-span">Ránkings</span>
+                </div>
+                <div class="authentication">
+                    <ul class="flex flex-row flex-space-between flex-align-center hidden" id="test1" onclick="change()">
+                        <li><a href="#" class="btn sign-in">Entrar</a></li>
+                        <li><a href="#" class="btn sign-up">Registrarse</a></li>
+                    </ul>
+                    <a href="#" class="profile-icon" id="test2" onclick="change()"><img src="./images/profile-icon.png" alt="Profile icon"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="container">
+        <div class="content-wrapper-2 profile-page">
+            <div class="releases-container">
+                <div class="last-releases">
+                    <nav class="profile-navbar">
+                        <ul class="profile-list">
+                            <li><i class="fas fa-user"></i>Perfil</li>
+                            <li><i class="fas fa-star"></i>Mis votaciones</li>
+                            <li><i class="fas fa-align-justify"></i>Mis análisis</li>
+                            <li><i class="fas fa-list"></i>Listas</li>
+                            <li><i class="fas fa-users"></i>Amigos</li>
+                            <li><i class="fas fa-inbox"></i>Buzón</li>
+                            <li><i class="fas fa-cog"></i>Ajustes</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <section class="last-releases rankings-column">
+                    <div class="section">
+                        <h3>Filter results</h3>
+                        <select class="select-css">
+                            <option value="default" disabled selected hidden>All letters</option>
+                            <option value="a">A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                        </select>
+                        <select class="select-css">
+                            <option value="default" disabled selected hidden>Sort by</option>
+                            <option value="1">Alphabetical</option>
+                            <option value="2">Release Date</option>
+                            <option value="3">Recent Edits</option>
+                            <option value="4">New Additions</option>
+                        </select>
+                    </div>
+
+                    <div class="section">
+                        <h3>Style of game</h3>
+                        <select class="select-css">
+                            <option value="default" disabled selected hidden>All platforms</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <select class="select-css">
+                            <option value="default" disabled selected hidden>Role-Playing</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <select class="select-css">
+                            <option value="default" disabled selected hidden>All themes</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+
+                    <div class="section">
+                        <h3>Made by / during this time</h3>
+                        <div class="flex flex-row flex-space-between flex-align-center input">
+                            <i class="fas fa-search pr-2"></i>
+                            <input type="search" name="search" id="developer" placeholder="Developer">
+                        </div>
+                        <div class="flex flex-row flex-space-between flex-align-center input">
+                            <i class="fas fa-search pr-2"></i>
+                            <input type="search" name="search" id="publisher" placeholder="Publisher">
+                        </div>
+                        <div class="date-wrapper">
+                            <label for="date-from">From:</label>
+                            <input type="date" name="date-from" id="date-from">
+                        </div>
+                        <div class="date-wrapper">
+                            <label for="date-to">To:</label>
+                            <input type="date" name="date-to" id="date-to">
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <a href="#" class="btn">Añadir a listas</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-wrapper">
+        <div class="footer">
+            <ul class="social-icons-list">
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-icon-item">
+                    <a class="social-icon" href="#">
+                        <i class="fas fa-at"></i>
+                    </a>
+                </li>
+            </ul>  
+        
+        <div class="copyright-section">
+            <a href="#">
+                <img src="./images/logo2.png" alt="Footer logo">
+            </a>
+            <p class="">© Kwanami 2018-2019. Todos los derechos reservados. <a href="#">Condiciones generales de uso</a>  | <a href="#">Derechos de copyright</a></p>
+        </div>
+    </div>
+    </footer>
+
+<script>
+let test1 = document.getElementById('test1');
+let test2 = document.getElementById('test2');
+
+function change() {
+    if (test1.classList.contains('hidden')) {
+        test1.classList.remove('hidden');
+        test2.classList.add('hidden');
+    } else {
+        test2.classList.remove('hidden');
+        test1.classList.add('hidden');
+    }
+}
+</script>
+</body>
+</html>

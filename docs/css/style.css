@@ -918,3 +918,42 @@ footer img {
     background-color: #b71c1c;
     color: white;
 }
+
+
+.profile-page .releases-container {
+    width: 24.99%;
+}
+
+.profile-page .right-column {
+    width: 74.99%;
+}
+
+.profile-page .last-releases {
+    padding: 0;
+}
+
+.profile-list li {
+    padding: 10px 16px 10px 48px;
+    position: relative;
+    cursor: pointer;
+}
+
+.profile-list li:hover {
+    transition: 0.3s;
+    background-color: #b71c1c;
+    color: white;
+}
+
+.profile-list li:first-child {
+    border-radius: 4px 4px 0 0; 
+}
+
+.profile-list li:last-child {
+    border-radius: 0 0 4px 4px; 
+}
+
+.profile-list li i {
+    position: absolute;
+    left: 16px;
+    top: 10px;
+}
