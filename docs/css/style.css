@@ -958,9 +958,15 @@ footer img {
     top: 10px;
 }
 
+#container {
+    padding: 8px;
+}
+
 .profile-column .section {
     display: flex;
     flex-direction: row;
+    padding-top: 0;
+    border: none;
 }
 
 .profile-column .profile-icon {
@@ -975,7 +981,29 @@ footer img {
     font-weight: 600;
 }
 
-.profile-column .score {
-    margin-right: 16px;
+.profile-score .score {
     border-radius: 50%;
+    margin: 4px 0;
+}
+
+.profile-score {
+    margin-left: auto;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-score p {
+    font-size: 14px;
+}
+
+.mt-1 {
+    margin-top: 4px;
+}
+
+.biography {
+    padding: 8px;
+    padding-right: 16px;
 }

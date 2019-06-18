@@ -18,6 +18,10 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -66,13 +70,7 @@
             </div>
 
             <div class="right-column">
-                <div class="last-releases profile-column">
-                    <div class="section">
-                        <img src="./images/profile-icon.png" alt="Profile icon" class="profile-icon">
-                        <h3>SrExtreme69</h3>
-                        <span class="score green">80</span>
-                    </div>
-                </div>
+                <div class="last-releases profile-column" id="container"></div>
             </div>
         </div>
     </main>
@@ -119,6 +117,11 @@ function change() {
         test1.classList.add('hidden');
     }
 }
+
+// Default Load Profile Content
+$("document").ready(function() {
+    $('#container').load('profile-pages/default.html');
+});
 </script>
 </body>
 </html>
