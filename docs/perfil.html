@@ -57,13 +57,13 @@
                 <div class="last-releases">
                     <nav class="profile-navbar">
                         <ul class="profile-list">
-                            <li><i class="fas fa-user"></i>Perfil</li>
-                            <li><i class="fas fa-star"></i>Mis votaciones</li>
-                            <li><i class="fas fa-align-justify"></i>Mis análisis</li>
-                            <li><i class="fas fa-list"></i>Listas</li>
-                            <li><i class="fas fa-users"></i>Amigos</li>
-                            <li><i class="fas fa-inbox"></i>Buzón</li>
-                            <li><i class="fas fa-cog"></i>Ajustes</li>
+                            <li id="profile-button"><i class="fas fa-user"></i>Perfil</li>
+                            <li id="votes-button"><i class="fas fa-star"></i>Mis votaciones</li>
+                            <li id="analysis-button"><i class="fas fa-align-justify"></i>Mis análisis</li>
+                            <li id="lists-button"><i class="fas fa-list"></i>Listas</li>
+                            <li id="friends-button"><i class="fas fa-users"></i>Amigos</li>
+                            <li id="inbox-button"><i class="fas fa-inbox"></i>Buzón</li>
+                            <li id="settings-button"><i class="fas fa-cog"></i>Ajustes</li>
                         </ul>
                     </nav>
                 </div>
@@ -119,8 +119,18 @@ function change() {
 }
 
 // Default Load Profile Content
-$("document").ready(function() {
+$(document).ready(function() {
     $('#container').load('profile-pages/default.html');
+});
+
+//Load profile-pages
+$(document).ready(function(){
+    $("#profile-button").click(function(){
+        $("#container").load("profile-pages/default.html").hide().fadeIn('slow');
+    });
+    $("#votes-button").click(function(){
+        $("#container").load("profile-pages/votaciones.html").hide().fadeIn('slow');
+    });
 });
 </script>
 </body>
