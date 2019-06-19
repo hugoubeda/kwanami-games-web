@@ -56,8 +56,8 @@
             <div class="releases-container">
                 <div class="last-releases">
                     <nav class="profile-navbar">
-                        <ul class="profile-list">
-                            <li id="profile-button"><i class="fas fa-user"></i>Perfil</li>
+                        <ul class="profile-list" id="profile-list">
+                            <li id="profile-button" class="active"><i class="fas fa-user"></i>Perfil</li>
                             <li id="votes-button"><i class="fas fa-star"></i>Mis votaciones</li>
                             <li id="analysis-button"><i class="fas fa-align-justify"></i>Mis análisis</li>
                             <li id="lists-button"><i class="fas fa-list"></i>Listas</li>
@@ -145,6 +145,13 @@ $(document).ready(function(){
     });
     $("#settings-button").click(function(){
         $("#container").load("profile-pages/ajustes.html").hide().fadeIn('slow');
+    });
+});
+
+//Activate menu items
+$(document).ready(function(){
+    $("#profile-list li").click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
     });
 });
 </script>

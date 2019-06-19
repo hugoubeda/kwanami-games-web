@@ -1189,3 +1189,8 @@ footer img {
 .inbox-right-column-table-item:last-child {
     border-bottom: none;
 }
+
+.active {
+    background-color: #b71c1c;
+    color: white;
+}
