@@ -1077,3 +1077,53 @@ footer img {
 .profile-column .list-section:last-child {
     border-bottom: none;
 }
+
+.friends-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.friends-table-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 12px;
+    border-bottom: 1px solid #f3f3f3;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.friends-table-header p {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.friends-table-header p:last-child {
+    margin-right: 0;
+}
+
+.friends-table-item {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.friends-table-item:last-child {
+    border-bottom: none;
+}
+
+.friends-table-item p {
+    margin-right: 4.8%;
+}
+
+.friends-table-item p:first-child {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.friends-table-item .red-text {
+    margin-right: 6px;
+}
