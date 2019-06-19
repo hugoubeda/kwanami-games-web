@@ -1,19 +1,69 @@
-<section class="last-releases default">
+<section class="last-releases settings">
     <h2>Ajustes</h2>
     <div class="section">
-        <img src="./images/profile-icon.png" alt="Profile icon" class="profile-icon">
         <div class="nick">
-            <h3>SrExtreme69</h3>
-            <p class="mt-1">España <span class="flag-icon flag-icon-es"></span></p>
+            <div>
+                <img src="./images/profile-icon.png" alt="Profile icon" class="profile-icon">
+                <h3>SrExtreme69</h3>
+            </div>
+            <p class="mt-1">(250px x 250px)</p>
         </div>
-        <div class="profile-score">
-            <p>Media de votos</p>
-            <span class="score green">8.7</span>
-            <p>84 votaciones</p>
-            <p>13 análisis</p>
+        <div class="change-profile-icon">
+            <h4>Cambiar Avatar</h4>
+            <input type="file" id="myFile">
+            <div class="change-profile-icon-buttons">
+                <a href="#" class="btn">Cambiar Avatar</a>
+                <a href="#" class="btn">Quitar Avatar</a>
+            </div>
         </div>
     </div>
-    <div class="section">
-        <p class="biography">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend dolor cursus justo scelerisque, vel tempus sem dapibus. Aliquam ut justo neque. Nulla facilisi. In purus justo, convallis sit amet maximus at, lacinia non neque. Proin accumsan dui vulputate eros condimentum dignissim. Maecenas ligula augue, varius eget mollis vitae, accumsan sed lacus. Nunc id ultricies justo. Quisque turpis magna, hendrerit sed est ut, finibus posuere quam.</p>
-    </div>
+    <form class="section">
+        <div class="profile-info">
+            <div class="profile-info-left-column">
+                <div class="profile-info-input">
+                    <label for="username">Nombre de usuario</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div class="profile-info-input">
+                    <label for="password">Contraseña</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="profile-info-input">
+                    <label for="gender">Género</label>
+                    <select class="select-css" name="gender" id="gender">
+                        <option value="default" disabled selected hidden>Género</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="profile-info-right-column">
+                <div class="profile-info-input">
+                    <label for="username">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="profile-info-input">
+                    <label for="country">País</label>
+                    <select class="select-css" name="country" id="country">
+                        <option value="default" disabled selected hidden>País</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div class="profile-info-input date-wrapper">
+                    <label for="date">Fecha de nacimiento</label>
+                    <input type="date" name="date" id="date">
+                </div>
+            </div>
+        </div>
+        <div class="biography">
+            <h4>Biografía</h4>
+            <textarea name="biography" id="biography" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Actualizar perfil" class="btn mt-1">
+    </form>
 </section>
