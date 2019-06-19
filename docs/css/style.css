@@ -1215,3 +1215,16 @@ footer img {
 .friends-table-item-buttons a:first-child {
     margin-right: 8px;
 }
+
+.profile-column .select-css {
+    margin-right: 8px;
+    width: 29.99%;
+}
+
+.profile-column .select-css:last-child {
+    margin-right: 0;
+}
+
+.selectors {
+    padding-top: 0;
+}
