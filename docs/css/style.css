@@ -1073,6 +1073,7 @@ footer img {
 .profile-column .list-section {
     margin-bottom: 16px;
     border-bottom: 1px solid #f3f3f3;
+    font-size: 14px;
 }
 
 .profile-column .list-section:last-child {
@@ -1094,6 +1095,7 @@ footer img {
     border-bottom: 1px solid #f3f3f3;
     width: 100%;
     padding: 8px 0;
+    padding-right: 48px;
 }
 
 .friends-table-header p {
@@ -1110,6 +1112,8 @@ footer img {
     flex-direction: row;
     padding: 12px 0;
     border-bottom: 1px solid #f3f3f3;
+    padding-right: 48px;
+    position: relative;
 }
 
 .friends-table-item:last-child {
@@ -1193,4 +1197,21 @@ footer img {
 .active {
     background-color: #b71c1c;
     color: white;
+}
+
+.profile-column .last-releases-item-data p {
+    font-size: 14px;
+}
+
+.friends-table-item-buttons {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friends-table-item-buttons a:first-child {
+    margin-right: 8px;
 }
