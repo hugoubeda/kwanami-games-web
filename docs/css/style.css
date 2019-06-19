@@ -967,6 +967,7 @@ footer img {
     flex-direction: row;
     padding-top: 0;
     border: none;
+    align-items: center;
 }
 
 .profile-column .profile-icon {
@@ -1126,4 +1127,22 @@ footer img {
 
 .friends-table-item .red-text {
     margin-right: 6px;
+}
+
+.inbox-left-column {
+    width: 24.99%;
+}
+
+.inbox-right-column {
+    width: 74.99%;
+    margin-left: 16px;
+}
+
+.profile-column .input {
+    margin-bottom: 0;
+    padding: 6px;
+    width: initial;
+    font-size: 13px;
+    margin: 0;
+    margin-left: auto;
 }
