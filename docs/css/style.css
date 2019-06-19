@@ -1044,9 +1044,8 @@ footer img {
     padding: 6px 10px;
 }
 
-.list-section {
-    justify-content: space-between !important;
-    padding: 0 8px;
+.section.list-section {
+    justify-content: space-between;
 }
 
 .list-section div:first-child i {
@@ -1055,4 +1054,26 @@ footer img {
 
 .list-section div:last-child * {
     margin-right: 4px;
+}
+
+.list-section div:last-child a:last-child, .list-section div:last-child a:last-child i {
+    margin-right: 0;
+}
+
+.section.flex-justify-start {
+    justify-content: flex-start;
+}
+
+.list-section-title:hover {
+    color: #b71c1c;
+    transition: 0.3s;
+}
+
+.profile-column .list-section {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.profile-column .list-section:last-child {
+    border-bottom: none;
 }
