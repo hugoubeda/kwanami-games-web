@@ -1039,3 +1039,20 @@ footer img {
     height: 73px;
     width: 73px;
 }
+
+.profile-column .btn {
+    padding: 6px 10px;
+}
+
+.list-section {
+    justify-content: space-between !important;
+    padding: 0 8px;
+}
+
+.list-section div:first-child i {
+    margin-top: 4px;
+}
+
+.list-section div:last-child * {
+    margin-right: 4px;
+}
