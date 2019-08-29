@@ -258,7 +258,7 @@ section {
 
 .score-float {
     position: absolute;
-    bottom: 27.5%;
+    bottom: 33%;
     right: 3%;
     z-index: 10;
 }
