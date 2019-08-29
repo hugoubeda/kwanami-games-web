@@ -241,6 +241,7 @@ section {
     padding: 12px;
     border-radius: 4px;
     margin-left: auto;
+    border: 2px solid #eee;
 }
 
 .score.green {
@@ -385,7 +386,7 @@ section {
 }
 
 .last-releases-item-data p {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 4px;
     max-width: 92%;
 }
@@ -607,7 +608,8 @@ footer img {
 }
 
 .last-releases-2 .score, .last-releases-3 .score {
-    align-self: flex-end;
+    align-self: flex-start;
+    margin-top: 10px;
 }
 
 .last-releases-2 .last-releases-item-data, .last-releases-3 .last-releases-item-data {
@@ -617,6 +619,7 @@ footer img {
 .last-releases-3 .score {
     border-radius: 50%;
     padding: 12px 16px;
+    margin-top: 10px;
 }
 
 .technical-card-data .img {
