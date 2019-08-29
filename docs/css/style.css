@@ -507,7 +507,7 @@ section {
     margin-left: auto;
 }
 
-footer {
+/* footer {
     margin-top: 16px;
     background: white;
 }
@@ -521,6 +521,10 @@ footer .footer {
 
 footer img {
     height: 42px;
+} */
+
+.footer p {
+    font-size: 12px;
 }
 
 .social-icons-list {
